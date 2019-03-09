@@ -37,7 +37,7 @@ module.exports = app => {
       repo   : 'core-site',
       number : prNumber,
       event  : 'COMMENT',
-      body   : '成功生成預覽站！請前往 https://preview.puyo.tw/' + prNumber + ' 以預覽最新變動。',
+      body   : '成功生成預覽站！請前往 https://preview.puyo.tw/' + prNumber + '/ 以預覽最新變動。',
     });
     
   });
